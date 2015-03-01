@@ -10,7 +10,11 @@
     </tr>
   </table>
 
+
   <form ng-submit="addUser()">
-    <input type="submit" value="add">
+    <input type="text" ng-model="enteredName">
+    <input type="text" ng-model="enteredEmail">
+    <input type="submit" value="add user">
+    <p>{{ users.length }}</p>
   </form>
 </div>
