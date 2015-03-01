@@ -1,0 +1,13 @@
+<div ng-app='app.exampleApp' ng-controller='ExampleCtrl'>
+  <p>Value from ExampleCtrl:</p>
+  <p>{{ exampleValue }}</p>
+  <ul>
+    <li ng-repeat="name in names">{{name}}
+    <a href="" ng-click="removeName(name)">X</a>
+    </li>
+  </ul>
+  <form ng-submit="addName()">
+    <input type="text" ng-model="enteredName">
+    <input type="submit" value="add">
+  </form>
+</div>
