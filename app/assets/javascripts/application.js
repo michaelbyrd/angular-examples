@@ -14,7 +14,6 @@
 //= require jquery_ujs
 //= require angular
 //= require angular-rails-templates
-//
 
 //= require angular-app/app
 //= require_tree ./angular-app/templates
