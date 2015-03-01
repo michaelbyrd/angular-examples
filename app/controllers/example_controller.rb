@@ -4,7 +4,7 @@ class ExampleController < ApplicationController
   end
 
   def users
-    @users = User.all.map {|u| u.name}
+    @users = User.all
     respond_with @users
   end
 end
